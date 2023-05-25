@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Gloria+Hallelujah|Great+Vibes|Parisienne|Sacramento);
+body {
+    background-image: url(_imagens/fundo2.jpg);
+}
+
+div#interface {
+    width: auto;
+    background-color: rgba(217, 135, 248, .4) margin: auto;
+    padding: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Parisienne, cursive;
+    color: purple;
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Imagens da página principal*/
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1150px;
+    top: 70px;
+}
+
+figure.capa {
+    position: center;
+    padding-top: 40px;
+    padding-left: 300px;
+}
+
+figure.imagens-home {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.imagens-home img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+figure.imagens-home figcaption {
+    opacity: 0;
+    position: bottom;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 1px;
+    transition: 1s;
+}
+
+figure.imagens-home:hover figcaption {
+    opacity: 1;
+}
+
+
+/*Formatação da barra "meus trabalhos"*/
+
+nav#TRABALHOS {
+    display: block;
+}
+
+nav#TRABALHOS ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 600px;
+}
+
+nav#TRABALHOS li {
+    display: inline-block;
+    background-color: rgba(217, 135, 248, .4);
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#TRABALHOS li:hover {
+    background-color: #606060
+}
+
+nav#TRABALHOS h4 {
+    display: none;
+}
+
+nav#TRABALHOS a {
+    font-family: color: black;
+    text-decoration: none;
+}
+
+nav#TRABALHOS a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*Menu contato*/
+
+nav#contato {
+    display: block;
+}
+
+nav#contato ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#contato li {
+    display: inline-block;
+    background-color: rgba(217, 135, 238, .4);
+    padding: 3px;
+    margin: 0px;
+    transition: 1s;
+}
+
+nav#contato a:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+footer#rodape {
+    border-top: 1px solid #60606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}

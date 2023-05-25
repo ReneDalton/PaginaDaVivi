@@ -1,0 +1,150 @@
+@charset ",UTF-8";
+body {
+    background-image: url(_imagens/fundo3.jpg);
+}
+
+h1 {
+    font-family: monotype corsiva;
+    color: purple;
+}
+
+h2 {
+    font-family: monotype corsiva;
+    color: purple;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-family: monotype corsiva;
+    font-size: 30px;
+    text-align: center;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1150px;
+    top: 70px;
+}
+
+ul#fotos-banheiro span {
+    opacity: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: 9pt;
+    line-height: 270px;
+    padding: 5px
+}
+
+ul#fotos-banheiro li:hover {
+    transform: scale(1.5);
+    transition: all .4s ease-in;
+}
+
+ul#fotos-banheiro li:hover span {
+    opacity: 1;
+    transition: 1s;
+}
+
+ul#fotos-banheiro {
+    width: 1000px;
+    margin: 0, auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#fotos-banheiro li {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: solid black;
+}
+
+ul#fotos-banheiro li#foto01 {
+    background: url('_imagens/tapete_minions.jpg') no-repeat;
+}
+
+ul#fotos-banheiro li#foto02 {
+    background: url('_imagens/banheiro_lilas_min.jpg') no-repeat;
+}
+
+ul#fotos-banheiro li#foto03 {
+    background: url('_imagens/banheiro_vermelho_min.jpg') no-repeat;
+}
+
+
+/*Formatação da barra "meus trabalhos"*/
+
+nav#TRABALHOS {
+    display: block;
+}
+
+nav#TRABALHOS ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 600px;
+}
+
+nav#TRABALHOS li {
+    display: inline-block;
+    background-color: rgba(217, 135, 248, .4);
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s
+}
+
+nav#TRABALHOS li:hover {
+    background-color: #606060;
+}
+
+nav#TRABALHOS h4 {
+    display: none;
+}
+
+nav#TRABALHOS a {
+    font-family: color: black;
+    text-decoration: none;
+}
+
+nav#TRABALHOS a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*Menu contato*/
+
+nav#contato {
+    display: block;
+}
+
+nav#contato ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#contato li {
+    display: inline-block;
+    background-color: rgba(217, 135, 238, .4);
+    padding: 3px;
+    margin: 0px;
+    transition: 1s
+}
+
+nav#contato a:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+footer#rodape {
+    border-top: 1px solid #60606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
